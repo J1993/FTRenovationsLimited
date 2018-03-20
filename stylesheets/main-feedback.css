@@ -1,0 +1,189 @@
+@media screen and (min-width: 375px) {
+    
+    .parallaxFeedback {
+        background-image: url("../images/feedback.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 15px;
+    }
+    
+    .titleFeedback {
+        padding-top: 10px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .titleFeedback h2{
+        font-size: 30px;
+    }
+
+    .titleFeedback p{
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    
+    .feedback {
+        display: inline-block;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .feedback #customer{
+        text-align: center;    
+    }
+    
+    /****************Customer Section**********************/
+
+    #customer div {
+        width: 30px;
+        height: 30px;
+        margin: 5%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #customer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #customer h3 {
+        color: #dedddd;
+        font-size: 16px;
+        font-style: italic;
+    }
+
+    #customer h5 {
+        color: #bbb;
+        font-size: 14px;
+        padding: 5px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .parallaxFeedback {
+        background-image: url("../images/feedback.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 15px;
+    }
+    
+    .titleFeedback {
+        padding-top: 10px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .titleFeedback h2{
+        font-size: 30px;
+    }
+
+    .titleFeedback p{
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    
+    .feedback {
+        display: inline-block;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .feedback #customer{
+        text-align: center;    
+    }
+    
+    /****************Customer Section**********************/
+
+    #customer div {
+        width: 30px;
+        height: 30px;
+        margin: 2%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #customer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #customer h3 {
+        color: #dedddd;
+        font-size: 16px;
+        font-style: italic;
+    }
+
+    #customer h5 {
+        color: #bbb;
+        font-size: 14px;
+        padding: 5px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .parallaxFeedback {
+        background-image: url("../images/feedback.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        min-height: 70%;
+    }
+
+    .titleFeedback {
+        padding-top: 10px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .titleFeedback h2{
+        font-size: 40px;
+    }
+
+    .titleFeedback p{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .feedback {
+        display: flex;
+        padding: 2% 5% 0% 5%;
+    }
+
+    .feedback #customer{
+        width: 25%;
+        text-align: center;    
+    }
+
+    /****************Customer Section**********************/
+
+    #customer div {
+        width: 30px;
+        height: 30px;
+        margin: 5%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #customer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #customer h3 {
+        color: #dedddd;
+        font-size: 16px;
+        font-style: italic;
+    }
+
+    #customer h5 {
+        color: #bbb;
+        font-size: 14px;
+        padding: 5px 0 0 0;
+    }
+}

@@ -1,0 +1,415 @@
+.headerServices {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    position: fixed;
+    color: #fff;
+}
+
+@media screen and (min-width: 375px) {
+    
+    .parallaxInterior {
+        background-image: url(../images/interior.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+
+    .parallaxRemovals {
+        background-image: url(../images/removals.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+
+    .parallaxGardening {
+        background-image: url(../images/gardening.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+    
+    .title {
+        padding: 12% 5% 0 5%;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        box-sizing: border-box;
+    }
+
+    .titleRight {
+        padding: 12% 5% 0 5%;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        box-sizing: border-box;
+    }
+
+    .content {
+        display: inline-block;
+        margin: 0 5% 0 5%;
+        color: #fff;
+        box-sizing: border-box;
+    }
+
+    .content #resume {
+        padding: 4% 4% 4% 4%;
+        font-size: 16px;
+        text-align: center;
+        box-sizing: border-box;
+        font-style: oblique;
+    }
+
+    .content #resumeRight {
+        margin-bottom: 10%;
+        padding: 4% 4% 4% 4%;
+        font-size: 16px;
+        text-align: center;
+        box-sizing: border-box;
+        font-style: oblique;
+    }
+
+    .content #list {
+        font-size: 14px;
+        text-align: center;
+        box-sizing: border-box;
+        font-weight: bold;
+        margin-bottom: 5%;
+        border-top: 2px solid #fff;
+    }
+
+    .content #listRight {
+        font-size: 14px;
+        text-align: center;
+        box-sizing: border-box;
+        border-bottom: 2px solid #fff;
+        font-weight: bold;
+        margin-top: 5%;
+    }
+
+    #list li {
+        margin: 2.5% 6% 2% 6%;
+        padding-bottom: 1%;
+    }
+
+    #listRight li {
+        margin: 2.5% 6% 2% 6%;
+        padding-bottom: 1%;
+    }
+
+    .gallery{
+        width: 100%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    
+    .gallery a {
+        display: inline-block;
+        color: #fff;
+        font-size: 20px;
+        padding: 7px 25px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }
+
+    .galleryRight {
+        width: 100%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    .galleryRight a {
+        display: inline-block;
+        color: #fff;
+        font-size: 20px;
+        padding: 7px 25px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }    
+}
+
+@media screen and (min-width: 768px) {
+    
+        .parallaxInterior {
+        background-image: url(../images/interior.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100%;
+    }
+
+    .parallaxRemovals {
+        background-image: url(../images/removals.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100%;
+    }
+
+    .parallaxGardening {
+        background-image: url(../images/gardening.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100%;
+    }
+    
+    .title {
+        padding: 6% 0% 2% 6%;
+        font-size: 24px;
+        color: #fff;
+        box-sizing: border-box;
+        text-align: left;
+    }
+
+    .titleRight {
+        box-sizing: border-box;
+        padding: 5% 7% 2% 6%;
+        font-size: 24px;
+        color: #fff;
+        text-align: right;
+
+    }
+
+    .content {
+        display: flex;
+        margin: 0 5% 15% 5%;
+        color: #fff;
+        min-height: 400px;
+        max-height: 400px;
+        box-sizing: border-box;
+    }
+
+    .content #resume {
+        width: 50%;
+        padding: 4% 4% 0 0;
+        font-size: 18px;
+        text-align: justify;
+        box-sizing: border-box;
+        border-right: 1px solid #fff;
+        letter-spacing: 1px;
+        font-style: oblique;
+    }
+
+    .content #resumeRight {
+        width: 50%;
+        padding: 4% 0 0 4%;
+        font-size: 18px;
+        text-align: justify;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+        font-style: oblique;
+    }
+
+    .content #list {
+        width: 50%;
+        padding-top: 4%;
+        font-size: 20px;
+        box-sizing: border-box;
+        border-top: none;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .content #listRight {
+        width: 50%;
+        padding-top: 4%;
+        font-size: 20px;
+        box-sizing: border-box;
+        border-bottom: none;
+        border-right: 2px solid #fff;
+        font-weight: bold;
+        margin-top: 0;
+    }
+
+    #list li {
+        margin: 0 6% 2% 6%;
+        padding-bottom: 1%;
+        border-bottom: 2px solid #fff;
+    }
+
+    #listRight li {
+        text-align: right;
+        margin: 0 6% 2% 6%;
+        padding-bottom: 1%;
+        border-bottom: 2px solid #fff;
+    }
+
+    .gallery {
+        width: 100%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    
+    .gallery a {
+        color: #fff;
+        font-size: 24px;
+        padding: 10px 50px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }
+
+    .galleryRight {
+        width: 100%;
+        margin-bottom: 5%;
+        text-align: center
+    }
+    
+    .galleryRight a {
+        color: #fff;
+        font-size: 24px;
+        padding: 10px 50px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .parallaxInterior {
+        background-image: url(../images/interior.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100%;
+    }
+
+    .parallaxRemovals {
+        background-image: url(../images/removals.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100%;
+    }
+
+    .parallaxGardening {
+        background-image: url(../images/gardening.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100%;
+    }
+    
+    .title {
+        padding: 6% 0% 2% 6%;
+        font-size: 24px;
+        color: #fff;
+        box-sizing: border-box;
+    }
+
+    .titleRight {
+        box-sizing: border-box;
+        padding: 5% 7% 2% 6%;
+        font-size: 24px;
+        color: #fff;
+        text-align: right;
+    }
+
+    .content {
+        display: flex;
+        margin: 0 5% 0 5%;
+        color: #fff;
+        min-height: 300px;
+        max-height: 300px;
+        box-sizing: border-box;
+    }
+
+    .content #resume {
+        width: 50%;
+        padding: 4% 4% 0 0;
+        font-size: 18px;
+        text-align: justify;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+        font-style: oblique;
+    }
+
+    .content #resumeRight {
+        width: 50%;
+        padding: 4% 0 0 4%;
+        font-size: 18px;
+        text-align: justify;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+        font-style: oblique;
+    }
+
+    .content #list {
+        width: 50%;
+        font-size: 20px;
+        box-sizing: border-box;
+        border-left: 2px solid #fff;
+        border-top: 0px;
+        font-weight: bold;
+    }
+
+    .content #listRight {
+        width: 50%;
+        padding-top: 2.5%;
+        font-size: 20px;
+        box-sizing: border-box;
+        border-right: 2px solid #fff;
+        font-weight: bold;
+    }
+
+    #list li {
+        margin: 0% 6% 2% 6%;
+        padding-bottom: 1%;
+        border-bottom: 2px solid #fff;
+    }
+
+    #listRight li {
+        text-align: right;
+        margin: 2.5% 6% 2% 6%;
+        padding-bottom: 1%;
+        border-bottom: 2px solid #fff;
+    }
+
+    .gallery {
+        margin-top: 2%;
+        color: #fff;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold
+    }
+    
+    .gallery a {
+        float: right;
+        margin-right: 20%;
+        padding: 10px 50px;
+        transition: background-color 0.7s;
+    }
+
+    .galleryRight {
+        margin-top: 2%;
+        color: #fff;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold
+    }
+    
+    .galleryRight a {
+        float: left;
+        margin-left: 10%;
+        padding: 10px 50px;
+        transition: background-color 0.7s;
+    }
+
+    .gallery a:hover {
+        background-color: #cd8500;
+    }
+
+    .galleryRight a:hover {
+        background-color: #cd8500;
+    }
+}
+

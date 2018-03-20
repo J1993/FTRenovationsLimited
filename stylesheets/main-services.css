@@ -1,0 +1,182 @@
+@media screen and (min-width: 375px) {
+    
+    .sectionservices{
+        background-color: var(--principal);
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    
+    .titleServices {
+        text-align: center;
+        color: var(--white);
+    }    
+    
+    .titleServices h2{
+        font-size: 30px;
+    }
+
+    .titleServices p{
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    
+    .services{
+        display: inline-block;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .services #service{
+        text-align: center;
+    }
+    
+    /***************SERVICE SECTION************/
+    #service div{
+        background-color: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        margin: 5%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+    }
+    
+    #service img{
+        width: 40px;
+        height: 40px;
+        padding: 5.5px;
+    }    
+    
+    #service h3{
+        color: #8b5a2b;
+        font-size: 22px;
+    }
+
+    #service h5{
+        color: #dedddd;
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+    .titleServices {
+        padding-top: 10px;
+    }
+
+    .titleServices h2{
+        font-size: 40px;
+    }
+
+    .title p{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .services{
+        display: flex;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .services #service{
+        width: 33.3%;
+        text-align: center;
+    }
+
+    /***************SERVICE SECTION************/
+    #service div{
+        background-color: #fff;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin: 5%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+    }
+
+    #service img{
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+    }
+
+    #service h3{
+        color: #8b5a2b;
+        font-size: 23px;
+    }
+
+    #service h5{
+        color: #dedddd;
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .sectionservices{
+        height: 400px;
+    }
+
+    .titleServices {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .titleServices h2{
+        font-size: 40px;
+    }
+
+    .title p{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .services{
+        display: flex;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .services #service{
+        width: 33.3%;
+        text-align: center;
+    }
+
+    /***************SERVICE SECTION************/
+    #service div{
+        background-color: #fff;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin: 5%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+    }
+
+    #service img{
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+
+    }
+
+    #service h3{
+        color: #8b5a2b;
+        font-size: 23px;
+    }
+
+    #service h5{
+        color: #dedddd;
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+
+}

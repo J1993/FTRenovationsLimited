@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+html, body {
+    height: 100%;
+    /*Asigno un height del 100% a html y body para que el contendor que se le asigne el 100% de height ocupe toda la pantalla como un full screen.*/
+    
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+a{
+    text-decoration: none
+}
+
+:root {
+    --principal: #cd8500;
+    --secundario: #8b5a2b;
+    --fondoSecundario: #dedddd;
+    --subtitulosSecundarios: #8c8c8c;
+    
+    --white: #ffffff;
+}
+

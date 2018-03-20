@@ -1,0 +1,129 @@
+@media screen and (min-width: 375px) {
+    
+    .parallaxHeader {
+        background-image: url("../images/mainmenu-image.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .header {
+        color: var(--white);
+        padding-bottom: 15px;
+        box-sizing: border-box;
+    }
+
+    .logo{
+        margin: 0% 5%;
+        border-bottom: 1px solid var(--white);
+        display: inline-block;
+    }
+    
+    .logo img {
+        width: 100%;
+    }
+
+    .header #summary {
+        margin: 3% 5% 0;
+        text-align: center;
+    }
+
+    #summary p {    
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+
+    #summary a {
+        padding:  10px 25px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 16px;
+        color: var(--white);
+        border: 2px solid var(--white);
+        border-radius: 10px;
+    }
+}   
+
+@media screen and (min-width: 768px) {
+    
+    .parallaxHeader {
+        background-image: url("../images/mainmenu-image.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100%;
+    }
+    
+    .header {
+        color: #fff;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    .logo{
+        margin: 0% 10%;
+    }
+
+    .header #summary {
+        margin: 2% 5%;
+        text-align: center;
+    }
+
+    #summary p {    
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+
+    #summary a {
+        padding:  10px 25px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .parallaxHeader {
+        background-image: url("../images/mainmenu-image.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100%;
+    }
+
+    .header {
+        box-sizing: border-box;
+    }
+
+    .logo{
+        margin: 0% 21%;
+    }
+
+    .header #summary {
+        margin: 3% 5%;
+        text-align: center;
+    }
+
+    #summary p {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #summary a{
+        padding: 10px 50px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 22px;
+        transition: background-color 0.7s;
+    }
+
+    #summary a:hover{
+        background-color: var(--principal);
+    }
+}

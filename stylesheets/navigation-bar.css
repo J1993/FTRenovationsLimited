@@ -1,0 +1,115 @@
+@media screen and (min-width: 375px) {
+    
+    .navBar {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .left {
+        display: flex;
+        width: 92%;
+    }
+
+    .left img{
+        width: 20px;
+        height: 20px;
+        padding: 5px 5px 0 10px;
+    }
+
+    .left p{
+        font-size: 11px;
+        line-height: 35px;
+        color: var(--white);
+        padding-left: 3px;
+    }
+
+    .right{
+        width: 8%;
+        display: block;
+    }
+
+    .right img{
+        width: 16px;
+        padding-left: 3px;
+        padding-top: 3px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .navBar {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .left {
+        display: flex;
+        width: 92%;
+    }
+
+    .left img{
+        width: 20px;
+        height: 20px;
+        padding: 5px 5px 0 10px;
+    }
+
+    .left p{
+        font-size: 14px;
+        line-height: 35px;
+        padding-left: 3px;
+    }
+
+    .right{
+        width: 8%;
+        display: block;
+    }
+
+    .right img{
+        width: 16px;
+        padding-left: 3px;
+        padding-top: 3px;
+    }
+} 
+
+@media screen and (min-width: 1024px) {
+    
+    .navBar {
+        height: 30px;
+        display: flex;
+    }
+
+    .left {
+        display: flex;
+        float: left;
+        width: 90%;
+    }
+
+    .left img{
+        height: 70%;
+        width: 2%;
+        margin: 4px;
+        margin-left: 20px;
+    }
+
+    .left p{
+        font-size: 16px;
+        height: 20px;
+        margin-top:4px;
+    }
+
+    .right{
+        display: flex;
+        width: 10%;
+    }
+
+    .right img{
+        height: 20px;
+        width: 20px;
+        margin: 4px;
+        margin-left: 20px;
+    }
+}

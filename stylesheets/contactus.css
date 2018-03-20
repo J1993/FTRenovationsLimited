@@ -1,0 +1,297 @@
+@media screen and (min-width: 375px) {
+    
+    .sectioncontact {
+    }
+
+    .sectioncontact h2{
+        padding-top: 10px;
+        text-align: center;
+        color: #8b5a2b;
+        font-size: 30px;
+    }
+
+    .contact {
+        margin: 1% 5% 0 5%;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+
+    .touch {
+        padding: 5px;
+    }
+
+    .touch h3 {
+        color: #8b5a2b;
+        margin-bottom: 2%;
+        font-size: 20px;
+    }
+
+    .touch h5 {
+        width: 70%;
+        color: #8c8c8c;
+        font-size: 14px;
+        margin-bottom: 4%;
+        font-style: oblique;
+    }
+
+    #contacting {
+        display: flex;
+        color: #8b5a2b;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+    #contacting img {
+        margin: 0 5px 5px 0;
+    }
+
+    #contacting p {
+        padding-top: 7px
+    }
+
+    .form {
+        margin: 5px;
+        padding-top: 15px;
+        border-top: 3px solid #cd8500;
+    }
+
+    .form h3 {
+        color: #8b5a2b;
+        margin-bottom: 2%;
+        font-size: 20px;
+    }
+
+    form {
+        width: 100%;
+        margin: auto;
+        padding: 10px 0px 10px 0px;
+        box-sizing: border-box;
+    }
+
+    form input, textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 16px;
+        border: 2px solid #cd8500;
+    }
+
+    form textarea {
+        min-height: 200px;
+        max-height: 200px;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    form #button {
+        background: #cd8500;
+        color: #fff;
+        font-size: 20px;
+        transition: background-color, color, 1s;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    
+        .sectioncontact {
+        min-height: 85%;
+    }
+
+    .sectioncontact h2{
+        padding-top: 10px;
+        text-align: center;
+        color: #8b5a2b;
+        font-size: 40px;
+    }
+
+    .contact {
+        margin: 1% 5% 0 5%;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .touch {
+        width: 50%;
+        margin: 5px;
+    }
+
+    .touch h3 {
+        color: #8b5a2b;
+        margin-bottom: 2%;
+        font-size: 25px;
+    }
+
+    .touch h5 {
+        width: 70%;
+        color: #8c8c8c;
+        font-size: 16px;
+        margin-bottom: 4%;
+        font-style: oblique;
+    }
+
+    #contacting {
+        display: flex;
+        color: #8b5a2b;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+    
+    #contacting img {
+        margin: 0 10px 10px 0;
+    }
+
+    #contacting p {
+        padding-top: 7px;
+    }
+
+    .form {
+        width: 50%;
+        margin: 5px;
+    }
+
+    .form h3 {
+        color: #8b5a2b;
+        margin-bottom: 2%;
+        font-size: 25px;
+    }
+
+    form {
+        width: 100%;
+        margin: auto;
+        padding: 10px 20px 10px 0px;
+        box-sizing: border-box;
+    }
+
+    form input, textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 16px;
+        border: 2px solid #cd8500;
+    }
+
+    form textarea {
+        min-height: 200px;
+        max-height: 200px;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    form #button {
+        background: #cd8500;
+        color: #fff;
+        font-size: 20px;
+        transition: background-color, color, 1s;
+    }
+
+    form #button:hover {
+        cursor: pointer;
+        background-color: transparent;
+        color: #cd8500;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .sectioncontact {
+        min-height: 85%;
+    }
+
+    .sectioncontact h2{
+        padding-top: 10px;
+        text-align: center;
+        color: #8b5a2b;
+        font-size: 40px;
+    }
+
+    .contact {
+        margin: 1% 5% 0 5%;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .touch {
+        width: 50%;
+        margin: 5px;
+    }
+
+    .touch h3 {
+        color: #8b5a2b;
+        margin-bottom: 2%;
+        font-size: 25px;
+    }
+
+    .touch h5 {
+        width: 70%;
+        color: #8c8c8c;
+        font-size: 16px;
+        margin-bottom: 4%;
+        font-style: oblique;
+    }
+
+    #contacting {
+        display: flex;
+        color: #8b5a2b;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+    #contacting img {
+        margin: 0 10px 10px 0;
+    }
+
+    #contacting p {
+        padding-top: 7px
+    }
+
+    .form {
+        width: 50%;
+        margin: 5px;
+    }
+
+    .form h3 {
+        color: #8b5a2b;
+        margin-bottom: 2%;
+        font-size: 25px;
+    }
+
+    form {
+        width: 100%;
+        margin: auto;
+        padding: 10px 20px 10px 0px;
+        box-sizing: border-box;
+    }
+
+    form input, textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 16px;
+        border: 2px solid #cd8500;
+    }
+
+    form textarea {
+        min-height: 200px;
+        max-height: 200px;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    form #button {
+        background: #cd8500;
+        color: #fff;
+        font-size: 20px;
+        transition: background-color, color, 1s;
+    }
+
+    form #button:hover {
+        cursor: pointer;
+        background-color: transparent;
+        color: #cd8500;
+    }
+}
