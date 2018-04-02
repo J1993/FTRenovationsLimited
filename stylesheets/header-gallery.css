@@ -1,0 +1,180 @@
+@media screen and (min-width: 375px) {
+    
+    .galleryHeader {
+        background-image: url("../images/mainmenu-image.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100%;
+    }
+    
+    .header {
+        color: var(--white);
+        padding-bottom: 15px;
+        box-sizing: border-box;
+    }
+    
+    .mainGallery {
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    .title {
+        color: var(--white);
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .gallery {
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+        box-sizing: border-box;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .gallery li {
+        margin: 5px;
+    }
+    
+    .gallery img {
+        width: 300px;
+        height: 180px;
+        border: 3px var(--white) solid
+    }
+    
+    /*Modal styles*/
+    .modal {
+        display: none;
+    }
+    
+    .modal:target {
+        display: block;
+        position: fixed;
+        background: rgba(0,0,0,0.8);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imageTitle {
+        color: var(--white);
+        font-size: 1.9em;
+        text-align: center;
+        margin: 15px 0;
+        
+    }
+    
+    .imageGallery {
+        width: 100%;
+        height: 50%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imageGallery a {
+        color: var(--white);
+        font-size: 2.2em;
+        margin: 0 10px;
+    }
+    
+    .imageGallery a:nth-child(2) {
+        margin: 0;
+        height: 100%;
+        flex-shrink: 2;
+    }
+    
+    .imageGallery img {
+        width: 600px;
+        height: 100%;
+        max-width: 100%;
+        border: 7px solid var(--white);
+        box-sizing: border-box;
+    }
+    
+    .cerrar {
+        display: block;
+        background: var(--white);
+        width: 25px;
+        height: 25px;
+        margin: 15px auto;
+        text-align: center;
+        font-size: 25px;
+        color: var(--black);
+        padding: 5px;
+        border-radius: 50%;
+        line-height: 25px;
+    }
+    
+    .linkBack {
+        display: inline-block;
+        color: var(--white);
+        padding:  10px 25px;
+        font-size: 1em;
+        border: 2px solid var(--white);
+        border-radius: 10px;
+        transition: background-color 0.7s;
+    }
+}   
+
+@media screen and (min-width: 768px) {
+    
+    .parallaxHeader {
+        background-image: url("../images/mainmenu-image.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100%;
+    }
+    
+    .header {
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+    
+    .imageGallery {
+        height: 70%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .parallaxHeader {
+        background-image: url("../images/mainmenu-image.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100%;
+    }
+
+    .header {
+        box-sizing: border-box;
+    }
+    
+    .imageGallery {
+        height: 80%;
+    }
+    
+    .imageGallery img {
+        width: 800px;
+    }
+    
+    .linkBack {
+        font-size: 1.4em;
+    }
+    
+    .linkBack:hover {
+        background-color: var(--principal);
+    }
+
+}
