@@ -8,6 +8,6 @@
     $content = 'Name: ' . $name . '\nMail: ' . $mail . '\nMessage: ' . $message;
 
     mail($destination, 'Customer request', $content);
-    header('Location:gracias.html');
+    header('Location:..gracias.html');
 
 ?>
