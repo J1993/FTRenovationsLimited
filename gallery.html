@@ -50,12 +50,10 @@
                <h2 class="title">Gallery</h2>
                
                <ul class="gallery">
-                  
-                  <li><a href="#img1"><img src="images/escaleras.jpg"></a></li>
-                  <li><a href="#img2"><img src="images/pared.jpg"></a></li>
-                  <li><a href="#img3"><img src="images/room.jpg"></a></li>
-                  <li><a href="#img4"><img src="images/suelo.jpg"></a></li>
-                  <li><a href="#img5"><img src="images/tienda.jpg"></a></li>
+                 
+                 <li><a href="#tiling1"><img src="images/suelo.jpg"><p>Tiling</p></a></li>
+                 <li><a href="#painting1"><img src="images/pared.jpg"><p>Painting</p></a></li>
+                <li><a href="#decorating1"><img src="images/escaleras.jpg"><p>Decorating</p></a></li>
                    
                </ul>
                
@@ -63,16 +61,18 @@
                 
             </div>
             
-            <!--Modals-->
-            <div class="modal" id="img1">
+            <!---------------Modals------------>
+            
+            <!--Tiling-->
+            <div class="modal" id="tiling1">
                
-               <h3 class="imageTitle">Home Stairs</h3>
+               <h3 class="imageTitle">Bathroom</h3>
                
                <div class="imageGallery">
                    
-                   <a href="#img5">&#60;</a>
-                   <a href="#img2"><img src="images/escaleras.jpg"></a>
-                   <a href="#img2">></a>
+                   <a href="#tiling3">&#60;</a>
+                   <a href="#tiling2"><img src="images/bath2.jpg"></a>
+                   <a href="#tiling2">></a>
                    
                </div>
                <a class="cerrar" href="#">X</a>
@@ -80,69 +80,103 @@
                 
             </div>
             
-            <div class="modal" id="img2">
+            <div class="modal" id="tiling2">
 
-               <h3 class="imageTitle">Interior Wall</h3>
+               <h3 class="imageTitle">Shower</h3>
 
                <div class="imageGallery">
 
-                   <a href="#img1">&#60;</a>
-                   <a href="#img3"><img src="images/pared.jpg"></a>
-                   <a href="#img3">></a>
+                   <a href="#tiling1">&#60;</a>
+                   <a href="#tiling3"><img src="images/shower.jpg"></a>
+                   <a href="#tiling3">></a>
 
                </div>
                <a class="cerrar" href="#">X</a>
                
             </div>
 
-            <div class="modal" id="img3">
+            <div class="modal" id="tiling3">
+
+               <h3 class="imageTitle">Kitchen Floor</h3>
+
+               <div class="imageGallery">
+
+                   <a href="#tiling2">&#60;</a>
+                   <a href="#tiling1"><img src="images/suelo.jpg"></a>
+                   <a href="#tiling1">></a>
+
+               </div>
+               <a class="cerrar" href="#">X</a>
+
+
+            </div>
+
+            <!--Painting-->
+            <div class="modal" id="painting1">
+
+               <h3 class="imageTitle">Home Stairs</h3>
+
+               <div class="imageGallery">
+
+                   <a href="#painting3">&#60;</a>
+                   <a href="#painting2"><img src="images/escaleras.jpg"></a>
+                   <a href="#painting2">></a>
+
+               </div>
+               <a class="cerrar" href="#">X</a>
+
+
+            </div>
+
+            <div class="modal" id="painting2">
 
                <h3 class="imageTitle">Interior Room</h3>
 
                <div class="imageGallery">
 
-                   <a href="#img2">&#60;</a>
-                   <a href="#img4"><img src="images/room.jpg"></a>
-                   <a href="#img4">></a>
+                   <a href="#painting1">&#60;</a>
+                   <a href="#painting3"><img src="images/room.jpg"></a>
+                   <a href="#painting3">></a>
 
                </div>
                <a class="cerrar" href="#">X</a>
 
 
             </div>
+            
+            <div class="modal" id="painting3">
 
-            <div class="modal" id="img4">
-
-               <h3 class="imageTitle">Floor Tiles</h3>
+               <h3 class="imageTitle">Interior Wall</h3>
 
                <div class="imageGallery">
 
-                   <a href="#img3">&#60;</a>
-                   <a href="#img5"><img src="images/suelo.jpg"></a>
-                   <a href="#img5">></a>
+                   <a href="#painting2">&#60;</a>
+                   <a href="#painting1"><img src="images/pared.jpg"></a>
+                   <a href="#painting1">></a>
 
                </div>
                <a class="cerrar" href="#">X</a>
 
 
             </div>
+            
+            <!--Decorating-->
+            <div class="modal" id="decorating1">
 
-            <div class="modal" id="img5">
-
-               <h3 class="imageTitle">Exterior Shop</h3>
+               <h3 class="imageTitle">Home Stairs</h3>
 
                <div class="imageGallery">
 
-                   <a href="#img4">&#60;</a>
-                   <a href="#img1"><img src="images/tienda.jpg"></a>
-                   <a href="#img1">></a>
+                   <a href="#decorating1">&#60;</a>
+                   <a href="#decorating1"><img src="images/tienda.jpg"></a>
+                   <a href="#decorating1">></a>
 
                </div>
                <a class="cerrar" href="#">X</a>
 
 
             </div>
-
+            
         </div>
         
     </body>

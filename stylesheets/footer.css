@@ -5,74 +5,21 @@
         padding-right: 5%;
         background-color: var(--principal);
         color: var(--white);
+        text-align: center;
     }
 
-    #social img {
+    .social img {
         float: left;
         padding: 1%;
     }
 
-    .sectionfooter #designed {
+    .designed {
         line-height: 40px;
         text-align: right;
         font-style: italic;
     }
 
-    #rights {
-        text-align: center;
+    .rights {
         margin-top: 10px;
     }
-}
-
-@media screen and (min-width: 768px) {
-    
-    .sectionfooter {
-        display: flex
-    }
-
-    .sectionfooter #social, #designed, #rights {
-        width: 33.3%;
-    }
-
-    .sectionfooter #designed {
-        text-align: center;
-        padding-top: 40px;
-    }
-    
-    #rights {
-        display: flex;
-    }
-    
-    #rights p {
-        width: 98%;
-        text-align: right
-    } 
-}
-
-@media screen and (min-width: 1024px) {
-    
-    .sectionfooter {
-        display: flex
-    }
-
-    .sectionfooter #social, #designed, #rights {
-        width: 33.3%;
-    }
-
-    #social img {
-        margin: 5px;
-    }
-
-    .sectionfooter #designed {
-        text-align: center;
-    }
-    
-    #rights {
-        display: flex;
-    }
-
-    #rights p {
-        width: 98%;
-        text-align: right
-    } 
 }

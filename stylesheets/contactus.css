@@ -48,7 +48,13 @@
     #contacting p {
         padding-top: 7px
     }
+    
+    .checkatrade {
+        margin-top: 2%;
+        border-left: 2px solid var(--principal);
+    }
 
+    /*FORM*/
     .form {
         margin: 5px;
         padding-top: 15px;
